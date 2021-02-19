@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+}
+.chart {
+  height: 410px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 100px;
+}
+.arrayShow {
+  div {
+    background-color: #000;
+    color: red;
+    margin: auto;
+  }
+  font-size: 16px;
+  height: 40px;
+  width: 500px;
+  background-color: #000;
+  margin: auto;
+  margin-bottom: 50px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  color: black;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    color: red;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #555;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 8px;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #f2a154;
+  }
+}
+.banner {
+  height: 50px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    font-size: 2rem;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.settings {
+  height: 100px;
+}

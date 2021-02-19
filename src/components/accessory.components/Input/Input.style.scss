@@ -1,0 +1,13 @@
+.InputArea {
+  display: inline;
+}
+form {
+  display: inline;
+}
+.text {
+  height: 20px;
+  width: 200px;
+  &:focus {
+    border: none;
+  }
+}

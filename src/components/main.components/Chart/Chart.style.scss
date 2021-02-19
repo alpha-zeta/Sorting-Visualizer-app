@@ -1,0 +1,19 @@
+.barChart {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 10px;
+  margin-top: 50px;
+}
+.bar {
+  display: inline-block;
+  background-color: red;
+  margin: 0 1px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.arrayCont {
+  transform: rotate(180deg);
+  width: 800px;
+  text-align: unset;
+  margin: auto;
+}
